@@ -1,32 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-*{
-font-family: "Playfair Display", serif;
-font-family: "Lato", sans-serif;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+
+* {
+    font-family: "Playfair Display", serif;
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
+
+h1 {
     font-family: "lato";
     font-size: 25px;
     font-weight: 400;
     color: #592214;
 }
-h2{
+
+h2 {
     font-family: "playfair Display";
     font-style: italic;
     font-size: 25px;
     text-align: center;
     padding-top: 5px;
-    font-weight:500 ;
+    font-weight: 500;
 }
-.main{
+
+.main {
     background-color: #FFF6EF;
     height: 100%;
     padding-bottom: 50px;
 }
-.head{
+
+.head {
     width: 100%;
     display: flex;
     align-items: center;
@@ -34,7 +39,8 @@ h2{
     flex-direction: column;
     padding-top: 25px;
 }
-.div1{
+
+.div1 {
     background-color: #FAECE2;
     display: flex;
     align-items: center;
@@ -45,79 +51,94 @@ h2{
     border: 2px solid white;
     margin-top: 20px;
 }
-.h40{
+
+.h40 {
     font-size: 20px;
     text-align: center;
 }
-.div01{
+
+.div01 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.div02{
+
+.div02 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.div03{
+
+.div03 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.book{
+
+.book {
     width: 380px;
     height: 380px;
     padding-left: 15px;
 }
-.cal{
+
+.cal {
     width: 380px;
     height: 380px;
     padding-left: 5px;
 }
-.laptop{
+
+.laptop {
     width: 390px;
     height: 380px;
-   padding-left: 20px;
+    padding-left: 20px;
 }
-.books{
+
+.books {
     width: 390px;
     height: 390px;
-   /* padding-right: 25px; */
-   padding-left: 20px;
+    /* padding-right: 25px; */
+    padding-left: 20px;
 }
-.income{
+
+.income {
     width: 390px;
     height: 380px;
-   padding-left: 20px;
+    padding-left: 20px;
 }
-.div1 p{
+
+.div1 p {
     font-size: 16px;
     font-family: "lato";
 }
-.para{
+
+.para {
     padding-left: 30px;
     font-size: 24px;
-    
+
 }
-.para2{
+
+.para2 {
     padding-left: 30px;
     font-size: 24px;
-    
+
 }
-.para0{
+
+.para0 {
     padding-left: 25px;
     font-size: 24px;
-    
+
 }
-.para1{
-    
+
+.para1 {
+
     font-size: 24px;
     padding-left: 15px;
 }
-h3{
+
+h3 {
     text-align: center;
     font-family: "playfair Display";
     font-style: italic;
@@ -125,72 +146,85 @@ h3{
     font-weight: 400;
     font-size: 17px;
 }
-h4{
+
+h4 {
     font-family: "playfair Display";
     text-align: center;
-    
+
 }
-.under{
+
+.under {
     border-bottom: 2px solid #592214;
     font-family: "playfair display";
     font-style: normal;
     font-weight: 700;
-  
+
 }
-.icon{
+
+.icon {
     display: flex;
     align-items: center;
     justify-content: center;
-   width: 100%;
-    
+    width: 100%;
+
 }
-#plus{
-  margin-top: 40px;
-  border-radius: 40px;
-  color: white;
+
+#plus {
+    margin-top: 40px;
+    border-radius: 40px;
+    color: white;
     padding: 10px;
-      background-color: #592214;
+    background-color: #592214;
 }
-.h01{
+
+.h01 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-span{
+
+span {
     font-family: "playfair Display";
     font-style: italic;
     font-weight: 600;
 }
-.bonus{
+
+.bonus {
     font-weight: 600;
     font-family: "lato";
     margin-top: 10px;
 }
-.pa{
+
+.pa {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.pa0{
+
+.pa0 {
     margin-top: 20px;
     font-family: "lato";
 }
-.po{
+
+.po {
     line-height: 20px;
 }
-.pb{
+
+.pb {
     line-height: 20px;
     margin-top: 30px;
 }
-.btn{
+
+.btn {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-button{
+
+button {
     background-color: #FFA463;
     color: black;
     border: none;
@@ -199,134 +233,162 @@ button{
     font-weight: 600;
     margin-top: 40px;
 }
-.main2{
+
+.main2 {
     background-color: #FAECE2;
     height: 100%;
     padding-bottom: 20px;
 }
-.span1{
+
+.span1 {
     font-weight: 900;
 }
-.div09{
+
+.div09 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-bottom: 20px;
-   /* padding-top: 30px; */
+    /* padding-top: 30px; */
 }
-.girl{
+
+.girl {
     width: 400px;
     height: 350px;
     -webkit-transform: scale(-1);
     transform: scaleX(-1);
-    
+
 }
-.right{
+
+.right {
     display: flex;
-  padding-top: 30px;
+    padding-top: 30px;
     justify-content: center;
     flex-direction: column;
-   padding-right: 00px;
+    padding-right: 00px;
 }
-.left{
+
+.left {
     padding-top: 40px;
     padding-right: 30px;
 }
-h6{
+
+h6 {
     font-size: 35px;
 }
-.right p{
+
+.right p {
     font-size: px;
 }
-.main3{
+
+.main3 {
     background-color: #F5E3D6;
     height: 100%;
 }
-.girls{
+
+.girls {
     width: 390px;
     height: 455px;
     margin-left: 135px;
 }
-.div08{
+
+.div08 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 40px;
 }
-.right1 h6{
+
+.right1 h6 {
     font-family: "playfair display ";
     font-weight: 550;
     font-size: 24px;
 }
-.right1 p{
+
+.right1 p {
     font-size: 14px;
 }
-.right1{
+
+.right1 {
     padding-right: 135px;
 }
-.main4{
+
+.main4 {
     background-color: #FFF6EF;
     height: 100%;
-   
+
 }
-.div07{
+
+.div07 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     flex-direction: column;
 }
-.h7{
-font-family: "playfair display";
-font-weight: 650;
-font-size: 25px;
-font-style: italic;
+
+.h7 {
+    font-family: "playfair display";
+    font-weight: 650;
+    font-size: 25px;
+    font-style: italic;
 }
-.div7{
+
+.div7 {
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding-top: 40px;
 }
-.div7 p{
+
+.div7 p {
     font-size: 14px;
     padding-top: 20px;
 }
-.a p{
+
+.a p {
     font-size: 12px;
 }
-.b p{
+
+.b p {
     font-size: 12px;
 }
-.ap{
+
+.ap {
     font-size: 13px;
 }
-.first{
+
+.first {
     display: flex;
     align-items: center;
     gap: 20px;
     margin-top: 30px;
 }
-.a{
+
+.a {
     background-color: #FAECE2;
     padding: 20px 30px;
     border-radius: 70px;
 }
-.b{
+
+.b {
     background-color: #FAECE2;
     padding: 20px 30px;
     border-radius: 70px;
 }
-.c{
+
+.c {
     background-color: #FAECE2;
     padding: 17px 33px;
     border-radius: 70px;
 }
-.c p{
+
+.c p {
     font-size: 12px;
 }
-.mh2{
+
+.mh2 {
     background-color: #F5E3D6;
     width: 740px;
     margin-top: 50px;
@@ -334,46 +396,50 @@ font-style: italic;
     padding-bottom: 13px;
     padding-top: 13px;
 }
-.course{
+
+.course {
     width: 230px;
     height: 200px;
 
 }
-.d{
+
+.d {
     background-color: #F5E3D6;
     height: 300px;
 }
-.h00{
+
+.h00 {
     font-family: "playfair display";
     font-style: normal;
     font-size: 14px;
     background-color: #F5E3D6;
     font-weight: 700;
- 
+
     padding-bottom: 6px;
 }
 
-.h000{
+.h000 {
     font-family: "lato";
-    
+
     font-size: 14px;
     background-color: #F5E3D6;
     font-weight: 700;
     padding-top: 6px;
     padding-bottom: 6px;
 }
-.h009{
+
+.h009 {
     font-family: "lato";
-    
+
     font-size: 14px;
     background-color: #F5E3D6;
     font-weight: 700;
     padding-top: 6px;
     height: 30px;
-   
+
 }
 
-.paraa1{
+.paraa1 {
     background-color: #FAECE2;
     font-size: 9px;
     padding-top: 6px;
@@ -381,25 +447,29 @@ font-style: italic;
     padding-bottom: 7px;
     /* text-align: center; */
 }
-.main5{
+
+.main5 {
     display: flex;
     gap: 24px;
     margin-left: px;
     background-color: #FFF6EF;
     height: 550px;
 }
-.main05{
+
+.main05 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.main6{
+
+.main6 {
     background-color: #FFF6EF;
     height: 100%;
-   
+
 }
-.get{
+
+.get {
     font-family: "playfair display";
     color: black;
     font-weight: 700;
@@ -407,55 +477,64 @@ font-style: italic;
     font-size: 24px;
     margin-top: 40px;
 }
-.main06{
+
+.main06 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     flex-direction: column;
 }
-.effort{
+
+.effort {
     text-align: center;
     margin-top: 30px;
     font-size: 14px;
     font-family: "lato";
 }
-.main004{
+
+.main004 {
     background-color: #F5E3D6;
     width: 740px;
     text-align: center;
-   padding: 30px 10px;
-   padding-bottom: 40px;
-   margin-top: 30px;
+    padding: 30px 10px;
+    padding-bottom: 40px;
+    margin-top: 30px;
 }
-.main004 h1{
+
+.main004 h1 {
     font-family: "playfair display";
     font-weight: 800;
     color: black;
     font-style: italic;
 }
-.main004 p{
+
+.main004 p {
     font-size: 14px;
 }
-.main00a{
+
+.main00a {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     flex-direction: column;
 }
-.main7{
+
+.main7 {
     background-color: #F5E3D6;
     width: 740px;
     padding-top: 20px;
     margin-top: 20px;
     padding-bottom: 25px;
 }
-.abaya{
+
+.abaya {
     width: 700px;
     margin-left: 20px;
 }
-.main07{
+
+.main07 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -463,7 +542,8 @@ font-style: italic;
     background-color: #FFF6EF;
     padding-bottom: 80px;
 }
-.yes{
+
+.yes {
     font-family: "playfair display";
     color: black;
     font-weight: 600;
@@ -472,52 +552,62 @@ font-style: italic;
     font-size: 20px;
     margin-top: 20px;
 }
-.launch{
+
+.launch {
     text-align: center;
     font-size: 12px;
     padding-top: 20px;
 }
-.s49{
+
+.s49 {
     color: black;
     font-weight: 700;
     text-align: center;
     padding-top: 10px;
 }
-.btn1{
+
+.btn1 {
     padding: 5px 15px 5px 10px;
     margin: none;
     border: 2px solid #FFA463;
 }
-#anlge{
-  margin-right: 10px;
+
+#anlge {
+    margin-right: 10px;
 }
-.btn0{
+
+.btn0 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.visa{
+
+.visa {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.visaa{
+
+.visaa {
     width: 160px;
     margin-top: 6px;
 }
-.privacy{
+
+.privacy {
     font-size: 13px;
     text-align: center;
     margin-top: 8px;
 }
-.main8{
+
+.main8 {
     background-color: #F5E3D6;
     padding-bottom: 40px;
     /* padding-top: 30px; */
 }
-.main8 h1{
+
+.main8 h1 {
     color: black;
     font-family: "playfair display";
     text-align: center;
@@ -525,19 +615,21 @@ font-style: italic;
     font-weight: 700;
     padding-top: 20px;
 }
-.find{
+
+.find {
     font-size: 13px;
-    text-align: center;  
+    text-align: center;
     padding-top: 20px;
 }
-.di0{
+
+.di0 {
     background-color: #F5E3D6;
     width: 600px;
     /* height: 100px; */
-    
+
 }
 
-.di1{
+.di1 {
     background-color: #F5EAE1;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -546,82 +638,391 @@ font-style: italic;
     border-radius: 6px;
     margin-top: 5px;
 }
-.di01{
+
+.di01 {
     background-color: #F5EAE1;
     padding-bottom: 10px;
     padding-top: 10px;
     font-size: 13px;
     padding-left: 5px;
-   
+
 }
-.di2{
+
+.di2 {
     background-color: #FFF4EB;
     padding-bottom: 20px;
     padding-top: 20px;
     font-size: 13px;
     padding-left: 5px;
 }
-#plus1{
+
+#plus1 {
     color: #896F5B;
-    position: relative; left: 200px;
+    position: relative;
+    left: 200px;
 }
-#plus2{
+
+#plus2 {
     color: #896F5B;
-    position: relative; left: 335px;
+    position: relative;
+    left: 335px;
 }
-#plus3{
+
+#plus3 {
     color: #896F5B;
-    position: relative; left: 355px;
+    position: relative;
+    left: 355px;
 }
-#plus4{
+
+#plus4 {
     color: #896F5B;
-    position: relative; left: 315px;
+    position: relative;
+    left: 315px;
 }
-#plus5{
+
+#plus5 {
     color: #896F5B;
-    position: relative; left: 355px;
+    position: relative;
+    left: 355px;
 }
-#plus6{
+
+#plus6 {
     color: #896F5B;
-    position: relative; left: 410px;
+    position: relative;
+    left: 410px;
 }
-.main08{
+
+.main08 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-padding-top: 30px;
+    padding-top: 30px;
 }
-@media(max-width: 855px){
-   .div09{
-    flex-direction: row;
-    position: relative; right: 190px;
-   }
-   .div09 .right p{
- font-size: 11px;
-   }
-   .div09 h6{
-    font-size: 14px;
-   }
-   .div09 .girl{
-  position: relative; right: 40px;
-   margin-right: 30px;
-    width: 350px;
-    height: 300px;
-   }
-   .div08{
-    flex-direction:row;
-   }
-   .div08 .right1 p{
-    font-size: 10px;
 
+@media(max-width: 855px) {
+    .div09 {
+        flex-direction: row;
+        position: relative;
+        right: 190px;
+    }
+
+    .div09 .right p {
+        font-size: 11px;
+    }
+
+    .div09 h6 {
+        font-size: 14px;
+    }
+
+    .div09 .girl {
+        position: relative;
+        right: 40px;
+        margin-right: 30px;
+        width: 350px;
+        height: 300px;
+    }
+
+    .div08 {
+        flex-direction: row;
+    }
+
+    .div08 .right1 p {
+        font-size: 10px;
+
+    }
+
+    .left1 img {
+        width: 330px;
+        height: 550px;
+        position: relative;
+        right: 50px;
+    }
+
+    .right1 h6 {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 400px) {
+   .div1{
+    flex-direction: column;
+    /* margin-top: 140px; */
+    padding-top: 300px;
+    /* height: 500px; */
+    /* padding-inline: 30px; */
+    padding-bottom: 300px;
    }
-   .left1 img{
-     width: 330px;
-     height: 550px;
-   position: relative; right: 50px;
+   .head h2{
+    font-size: 10px;
+    margin-right: 80px;
    }
-   .right1 h6{
+   .head h1{
+    font-size: 10px;
+    margin-right: 80px;
+   }
+   .book{
+    width: 280px;
+    height: 280px;
+    margin-right: 95px;
+   }
+   .para p{
+    font-size: 11px;
+   }
+   .para h3, h4{
     font-size: 13px;
    }
+   .para{
+    margin-right: 100px;
+   }
+    .para1{
+    /* padding-top: 0px; */
+    margin-right: 70px;
+    font-size: 10px;
+}
+.para1 p{
+    font-size: 11px;
+    /* margin-top: 6px; */
+}
+.laptop{
+    width: 280px;
+    height: 280px;
+    margin-right: 95px;
+    margin-top: 20px;
+}
+.cal{
+    width: 260px;
+    height: 280px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+.para2{
+    padding-top: 20px;
+    margin-right: 80px;
+    font-size: 10px;
+}
+.para2 p{
+    font-size: 12px;
+    margin-top: 6px;
+}
+.income{
+    width: 280px;
+    height: 280px;
+    margin-right: 90px;
+    margin-top: 20px;
+}
+.div02 .div1 .para1{
+    margin: none;
+}
+#plus{
+   margin-right: 60px;
+}
+.bonus{
+    font-size: 19px;
+    margin-right: 70px;
+}
+.pa0{
+    font-size: 10px;
+    margin-right: 70px;
+}
+.para0 h4{
+    font-size: 15px;
+}
+.para0 h3{
+    font-size: 14px;
+}
+
+.para0{
+    padding-top: 170px;
+    margin-right: 80px;
+    font-size: 10px;
+}
+.para2 p{
+    font-size: 12px;
+    margin-top: 6px;
+}
+.para0 h5{
+    font-size: 15px;
+    margin-left: 25px;
+}
+.para0 .po{
+    font-size: 11px;
+    margin-top: 20px;
+   
+}
+ .para0 .pb{
+    font-size: 11px;
+}
+.books{
+    width: 280px;
+    height: 280px;
+    margin-right: 90px;
+    margin-top: 20px;
+  
+
+}
+ .div03 {
+   margin-top: 20px;
+}
+.btn{
+    margin-top: 80px;
+  padding-right: 70px;
+}
+.div09{
+    flex-direction: column;
+}
+.left .girl{
+    width: 250px;
+    height: 250px;
+    margin-left: 440px;
+}
+.right p,h6{
+    font-size: 26px;
+    position: relative; left: 90px;
+    margin-left: 130px;
+    /* padding-left: 20px; */
+    /* text-align: center; */
+}
+.left1 .girls{
+    width: 260px;
+    height: 280px;
+    margin-top: none;
+    margin-right: 115px;
+}
+.div08{
+    flex-direction: column;
+}
+.right1 h6{
+ /* margin-right: 200px; */
+ display: none;
+}
+.right1 p{
+    margin-left: 30px;
+}
+.div7 .h7{
+    font-size: 18px;
+    margin-right: 70px;
+}
+.div7 p{
+   display: none;
+}
+.first{
+    flex-direction: column;
+    margin-right: 80px;
+}
+.first p,.ap{
+    font-size: 9px
+}
+.main5{
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 75px;
+    gap: px;
+}
+.mh2{
+    font-size: 16px;
+    /* width: 250px; */
+    padding-right: 70px;
+    
+}
+.d01{
+    margin-top: 210px;
+}
+.d02{
+    margin-top: 210px;
+    position: relative; bottom: 210px;
+}
+.main00a{
+    margin-top: 1000px;
+}
+.main00a p{
+    font-size: 7px;
+    margin-right: 10px;
+}
+.get{
+    font-size: 13px;
+}
+.main004 h1{
+    margin-right: 70px;
+    font-size: 20px;
+}
+.main004 p{
+    margin-right: 75px;
+    font-size: 7px;
+}
+.get{
+    margin-right: 70px;
+    font-size: 10px;
+}
+.effort{
+    margin-right: 80px;
+    font-size: 9px;
+    /* text-align: none; */
+}
+.abaya{
+    width: 260px;
+    height: 260px;
+}
+.yes{
+    font-size: 13px;
+    margin-right: 75px;
+}
+.launch{
+    font-size: 7px;
+    margin-right: 70px;
+}
+.s49{
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.btn1{
+    margin-right: 70px;
+}
+.visaa{
+    margin-right: 70px;
+}
+.privacy{
+    font-size: 11px;
+    margin-right: 60px;
+}
+.main8 h1{
+    font-size: 14px;
+    margin-right: 70px;
+}
+.find{
+    font-size: 9px;
+    margin-right: 80px;
+}
+#plus1{
+    display: none;
+}
+#plus2{
+    display: none;
+}
+#plus3{
+    display: none;
+}
+#plus4{
+    display: none;
+}
+#plus5{
+
+    display: none;
+}
+#plus6{
+
+    display: none;
+}
+.main08{
+    font-size: 6px;
+}
+.di01{
+    font-size: 11px;
+}
+.di2{
+    font-size: 9px;
+}
+.di1{
+    font-size: 12px;
+}
 }
